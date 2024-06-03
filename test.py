@@ -1,6 +1,5 @@
 import torch
 
-
 def test(model, testloader, batch_size: int, classes: list):
     with torch.no_grad():
         n_correct, n_samples = 0, 0
